@@ -38,48 +38,82 @@ ul {
 .top-container {
 	background-color: #00adb5;
 	position: relative;
-	padding-top: 200px;
+	padding-top: 80px;
+	width: 100%;
+	text-align: center;
 	/* padding-bottom: 20px; */
 }
 
 .top-cloud {
-	position: absolute;
-	right: 300px;
-	top: 50px;
+	position: relative;
+	width: auto;
+	height: 6rem;
+	left: 30%;
+	top: 3.125rem;
+	max-width: 200%;
+	/* position: absolute;
+	right: 18.75rem;
+	top: 3.125rem;
 	width: 18.75rem;
 	height: 6rem;
+	max-width: 200%;
+	width: auto; */
 }
 
 .pro {
 	text-decoration: underline;
 }
 
-#a-programmer {
+.mountain {
+	/* width: 37.375rem;
+	height: 22.3125rem; */
+	max-width: 100%;
+	width: auto;
+	margin-bottom: -3px;
+}
+
+.a-programmer {
 	font-weight: normal;
 	line-height: 2;
 }
 
 .bottom-cloud {
 	position: absolute;
+	bottom: 16rem;
+	width: 18.75rem;
+	height: 6rem;
+	left: 10%;
+	/* top: 1.125rem; */
+	max-width: 200%;
+
+	/* position: absolute;
 	left: 15.625rem;
 	bottom: 300px;
 	width: 18.75rem;
 	height: 6rem;
+	max-width: 200%;
+	width: auto; */
 }
 
 /****** MIDDLE CONTAINER ******/
+
+.profile-img {
+	width: 15rem;
+	height: 15rem;
+}
 
 .middle-container {
 	background-color: #eeeeee;
 	color: #393e46;
 	padding-top: 50px;
+	width: 100%;
 }
 
 .hello-text {
-	/* display: inline-block; */
 	margin: auto;
 	width: 50%;
 	text-align: justify;
+	padding-bottom: 2rem;
 }
 
 .course-link {
@@ -217,4 +251,46 @@ ul {
 	color: #00adb5;
 	font-family: "Montserrat", sans-serif;
 	text-decoration: none;
+}
+
+/* Responsiveness */
+
+@media (max-width: 800px) {
+	.course-list {
+		width: 60%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.bottom-cloud,
+	.top-cloud {
+		display: none;
+	}
+
+	.hello-text {
+		width: 60%;
+	}
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 4rem;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+
+	.profile-img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.hello-text {
+		width: 80%;
+	}
+
+	/* p {
+		text-align: left;
+	} */
 }
