@@ -2,7 +2,12 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0 maximum-scale=1,user-scalable=no"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="HandheldFriendly" content="true" />
 		<title>Wouter Hanekom</title>
 		<link rel="stylesheet" href="CSS/style.css" />
 		<link
@@ -15,23 +20,23 @@
 			rel="stylesheet"
 		/>
 	</head>
+
 	<body>
-		<header></header>
+		<!-- Greeting Section -->
 		<div class="top-container">
 			<img class="top-cloud" src="Images/cloud.png" alt="cloud-img" />
 			<h1>I'm Wouter.</h1>
-			<h2 id="a-programmer">A <span class="pro">pro</span>grammer.</h2>
+			<h2 class="a-programmer">A <span class="pro">pro</span>grammer.</h2>
 			<img class="bottom-cloud" src="Images/cloud.png" alt="cloud-img" />
-			<img src="Images/mountain.png" alt="mountain-img" />
+			<img class="mountain" src="Images/mountain.png" alt="mountain-img" />
 		</div>
-
+		<!-- Profile Section -->
 		<div class="middle-container">
 			<div class="profile">
 				<img
+					class="profile-img"
 					src="Images/PP_cropped.png"
 					alt="Wouter Hanekom Profile Picture"
-					width="250px"
-					height="250px"
 				/>
 				<h2>Hello.</h2>
 				<p class="hello-text">
@@ -50,9 +55,10 @@
 					learned skills and to gain knowledge and experience.
 				</p>
 				<h3>Courses completed</h3>
-				<ul>
+				<ul class="course-list">
 					<li>
-						<a class="course-link"
+						<a
+							class="course-link"
 							href="https://internationalopenacademy.com/introduction-to-coding"
 							>Introduction to Coding with HTML, CSS and JavaScript</a
 						>
@@ -60,14 +66,17 @@
 					</li>
 					<br /><br />
 					<li>
-						<a class="course-link" href="https://www.theodinproject.com/courses/web-development-101"
+						<a
+							class="course-link"
+							href="https://www.theodinproject.com/courses/web-development-101"
 							>Web Development 101</a
 						>
 						- The Odin Project
 					</li>
 					<br /><br />
 					<li>
-						<a class="course-link"
+						<a
+							class="course-link"
 							href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"
 							>The Complete 2020 Web Development Bootcamp</a
 						>
@@ -76,7 +85,8 @@
 					<br /><br />
 				</ul>
 			</div>
-			<!-- <hr /> -->
+
+			<!-- Skills Section -->
 			<div class="skills">
 				<h2>My Skills.</h2>
 				<div class="skill-row">
@@ -103,9 +113,11 @@
 					<h3 class="back-end-heading">Back-end Web Development</h3>
 					<p class="skills-text">
 						The world of back-end web development facinates me, and I am
-						currently exploring computing languages and skills that will.
-						Working with and manipulating data are skills that excite me. 
-						I have an insatiable appetite for learning and growing in this field.
+						currently exploring computing languages and skills that will assit
+						me on my path to becoming a full-stack developer. I have complted
+						modules and are confident in using NodeJS, ExpressJS and EJS.
+						Working with and manipulating data are skills that excite me. I have
+						an insatiable appetite for learning and growing in this field.
 					</p>
 				</div>
 				<div class="skill-row">
@@ -134,12 +146,12 @@
 					I am looking for full-time employment, but I am aslo in the market for
 					any freelance jobs.
 				</p>
-				<a class="btn" href="mailto:wphanekom@gmail.com">CONTACT ME</a><br>
+				<a class="btn" href="mailto:wphanekom@gmail.com">CONTACT ME</a><br />
 				<img
-						class="yes-img"
-						src="https://media.giphy.com/media/xKy2w6LehxxHa/giphy.gif"
-						alt="Man nodding yes"
-					/>
+					class="yes-img"
+					src="https://media.giphy.com/media/xKy2w6LehxxHa/giphy.gif"
+					alt="Man nodding yes"
+				/>
 			</div>
 		</div>
 
@@ -149,8 +161,16 @@
 				href="https://www.linkedin.com/in/wouter-hanekom-8b0879174/"
 				>LinkedIn</a
 			>
-			<a class="footer-link" href="https://github.com/">Portfolio</a>
-			<a class="footer-link" href="???????????????????????">Website</a>
+			<a
+				class="footer-link"
+				href="https://github.com/WouterStouter13?tab=repositories"
+				>Portfolio</a
+			>
+			<a
+				class="footer-link"
+				href="https://wouterstouter13.github.io/Wouter-Hanekom-Pure-HTML-CV/"
+				>CV Website</a
+			>
 			<p class="bottom-stamp">© 2020 Wouter Hanekom.</p>
 			<p class="bottom-attribute">
 				"Icon made by <strong>Pixel perfect</strong> from
