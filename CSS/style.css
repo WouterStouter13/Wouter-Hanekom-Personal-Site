@@ -309,6 +309,10 @@ ul {
 	.hello-text {
 		width: 60%;
 	}
+
+	.skill-row {
+		width: 80%;
+	}
 }
 
 @media (max-width: 500px) {
