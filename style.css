@@ -1,0 +1,360 @@
+body {
+	background-color: #00adb5;
+	margin: 0;
+	color: #393e46;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 0;
+}
+
+h1 {
+	color: #222831;
+	margin: 50px auto 0 auto;
+	font-family: "Sacramento", cursive;
+	font-size: 5.625rem;
+}
+
+h2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem;
+	color: #393346;
+}
+
+h3 {
+	font-family: "Montserrat", sans-serif;
+	color: #393346;
+}
+
+p {
+	line-height: 2;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+
+/****** TOP CONTAINER ******/
+
+.top-container {
+	background-color: #00adb5;
+	position: relative;
+	padding-top: 80px;
+	width: 100%;
+	text-align: center;
+	height: 90%;
+}
+
+.top-cloud {
+	position: relative;
+	width: auto;
+	height: 6rem;
+	left: 30%;
+	top: 3.125rem;
+	max-width: 200%;
+	/* position: absolute;
+	right: 18.75rem;
+	top: 3.125rem;
+	width: 18.75rem;
+	height: 6rem;
+	max-width: 200%;
+	width: auto; */
+}
+
+.pro {
+	text-decoration: underline;
+}
+
+.mountain {
+	/* width: 37.375rem;
+	height: 22.3125rem; */
+	max-width: 100%;
+	width: auto;
+	margin-bottom: -3px;
+}
+
+.a-programmer {
+	font-weight: normal;
+	line-height: 2;
+}
+
+.bottom-cloud {
+	position: absolute;
+	bottom: 16rem;
+	width: 18.75rem;
+	height: 6rem;
+	left: 10%;
+	/* top: 1.125rem; */
+	max-width: 200%;
+
+	/* position: absolute;
+	left: 15.625rem;
+	bottom: 300px;
+	width: 18.75rem;
+	height: 6rem;
+	max-width: 200%;
+	width: auto; */
+}
+
+/****** MIDDLE CONTAINER ******/
+
+.profile-img {
+	width: 15rem;
+	height: 15rem;
+}
+
+.middle-container {
+	background-color: #eeeeee;
+	color: #393e46;
+	padding-top: 50px;
+	width: 100%;
+}
+
+.hello-text {
+	margin: auto;
+	width: 50%;
+	text-align: justify;
+	padding-bottom: 2rem;
+}
+
+.course-list {
+	margin: auto;
+	width: 50%;
+}
+
+.course-link {
+	color: #00adb5;
+	font-family: "Montserrat", sans-serif;
+	margin: 0px 15px;
+	text-decoration: none;
+}
+
+.course-link:hover {
+	/* font-size: 1.1rem; */
+	color: #393e46;
+	transition: ease-in-out 1s;
+}
+
+.mobile-break-SP {
+	display: none;
+}
+
+.skills {
+	background-color: #00adb5;
+	padding-top: 17px;
+	padding-bottom: 20px;
+}
+
+.skill-row {
+	width: 50%;
+	/* display: inline-block;  */
+	/* has the same effect as margin: auto; below in this case */
+	margin: 100px auto 100px auto;
+}
+
+.skill-row h3 {
+	text-align: left;
+	margin-top: 3rem;
+}
+
+.skills-text {
+	text-align: justify;
+	padding-bottom: 20px;
+}
+
+.skill-img {
+	width: 25%;
+	height: 25%;
+	float: left;
+	margin: 0 30px 1rem 0;
+}
+
+.computor-img {
+	/* I was particularly proud of getting this image 
+	to fit in, as it's original dimensions are different, 
+	and it is a sticker, so it does not take up the full 
+	space of the element block. Therefore, I made the size 
+	larger % wise, and positioned it relatively and moved 
+	the image up relative to its current position by 21px 
+	to match up the visible image border */
+	width: 30%;
+	height: 30%;
+	float: right;
+	margin-left: 30px;
+	position: relative;
+	bottom: 1.875rem;
+}
+
+.contact-me {
+	padding: 0px 50px 30px;
+}
+
+.btn {
+	-kit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color: #eeeeee;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+	font-weight: 600;
+	margin-top: 5px;
+	padding: 10px 34px;
+	background-color: #00adb5;
+	box-shadow: 1px 1px 10px 0px #000000;
+	-webkit-box-shadow: 1px 1px 10px 0px #000000;
+	-moz-box-shadow: 1px 1px 10px 0px #000000;
+	text-shadow: 1px 0px 20px #393e46;
+	border: solid #222831 1px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+
+.btn:hover {
+	border: solid #393e46 2px;
+	background: #00adb5;
+	background-image: -webkit-linear-gradient(top, #00adb5, #62e5d5);
+	background-image: -moz-linear-gradient(top, #00adb5, #62e5d5);
+	background-image: -ms-linear-gradient(top, #00adb5, #62e5d5);
+	background-image: -o-linear-gradient(top, #00adb5, #62e5d5);
+	background-image: linear-gradient(to bottom, #00adb5, #62e5d5);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.yes-img {
+	padding-top: 30px;
+}
+
+/****** BOTTOM CONTAINER ******/
+
+.bottom-container {
+	background-color: #393e46;
+	color: #eeeeee;
+	padding: 20px 0;
+}
+
+.footer-link {
+	color: #00adb5;
+	font-family: "Montserrat", sans-serif;
+	margin: 0px 15px;
+	text-decoration: none;
+}
+
+.footer-link:hover {
+	color: #eeeeee;
+	transition: ease-in-out 1s;
+}
+
+.bottom-stamp {
+	margin-bottom: 0;
+}
+
+.bottom-attribute {
+	font-size: 0.5rem;
+}
+
+.attribute-link {
+	color: #00adb5;
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1100px) {
+	.course-list {
+		width: 60%;
+		margin: auto;
+		text-align: left;
+	}
+
+	.course-link {
+		text-align: left;
+		margin: auto;
+	}
+
+	.mobile-break-SP {
+		display: inline-block;
+	}
+}
+
+/* @media (max-width: 800px) {
+	.course-list {
+		width: 60%;
+		margin: auto;
+		text-align: left;
+	}
+
+	.course-link {
+		text-align: left;
+		margin: auto;
+	}
+
+	.mobile-break-SP {
+		display: inline-block;
+	}
+} */
+
+@media (max-width: 600px) {
+	.bottom-cloud,
+	.top-cloud {
+		display: none;
+	}
+
+	.hello-text {
+		width: 60%;
+	}
+
+	.skill-row {
+		width: 80%;
+	}
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 4rem;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+
+	.profile-img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.hello-text {
+		width: 80%;
+	}
+
+	.course-list {
+		text-align: left;
+		font-size: 1rem;
+	}
+
+	.course-link {
+		text-align: left;
+		margin: auto;
+	}
+
+	.mobile-break-SP {
+		display: inline-block;
+	}
+
+	.computor-img {
+		bottom: 0.4rem;
+	}
+
+	.yes-img {
+		width: 100%;
+	}
+
+	/* p {
+		text-align: left;
+	} */
+}
