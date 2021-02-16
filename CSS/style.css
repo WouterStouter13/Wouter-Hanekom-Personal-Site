@@ -31,7 +31,9 @@ p {
 
 ul {
 	list-style: none;
+	padding: 0;
 }
+
 
 /****** TOP CONTAINER ******/
 
@@ -41,7 +43,7 @@ ul {
 	padding-top: 80px;
 	width: 100%;
 	text-align: center;
-	/* padding-bottom: 20px; */
+	height: 90%;
 }
 
 .top-cloud {
@@ -116,6 +118,11 @@ ul {
 	padding-bottom: 2rem;
 }
 
+.course-list {
+	margin: auto;
+	width: 50%;
+}
+
 .course-link {
 	color: #00adb5;
 	font-family: "Montserrat", sans-serif;
@@ -124,8 +131,13 @@ ul {
 }
 
 .course-link:hover {
-	font-size: 1.1rem;
-	font-weight: bold;
+	/* font-size: 1.1rem; */
+	color: #393e46;
+	transition: ease-in-out 1s;
+}
+
+.mobile-break-SP {
+	display: none;
 }
 
 .skills {
@@ -175,7 +187,7 @@ ul {
 }
 
 .contact-me {
-	padding-bottom: 30px;
+	padding: 0px 50px 30px;
 }
 
 .btn {
@@ -184,10 +196,10 @@ ul {
 	border-radius: 20px;
 	color: #eeeeee;
 	font-family: "Montserrat", sans-serif;
-	font-size: 20px;
+	font-size: 1rem;
 	font-weight: 600;
 	margin-top: 5px;
-	padding: 18px;
+	padding: 10px 34px;
 	background-color: #00adb5;
 	box-shadow: 1px 1px 10px 0px #000000;
 	-webkit-box-shadow: 1px 1px 10px 0px #000000;
@@ -235,8 +247,7 @@ ul {
 
 .footer-link:hover {
 	color: #eeeeee;
-	font-size: 1.1rem;
-	font-weight: bold;
+	transition: ease-in-out 1s;
 }
 
 .bottom-stamp {
@@ -255,12 +266,39 @@ ul {
 
 /* Responsiveness */
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
 	.course-list {
 		width: 60%;
-		text-align: center;
+		margin: auto;
+		text-align: left;
+	}
+
+	.course-link {
+		text-align: left;
+		margin: auto;
+	}
+
+	.mobile-break-SP {
+		display: inline-block;
 	}
 }
+
+/* @media (max-width: 800px) {
+	.course-list {
+		width: 60%;
+		margin: auto;
+		text-align: left;
+	}
+
+	.course-link {
+		text-align: left;
+		margin: auto;
+	}
+
+	.mobile-break-SP {
+		display: inline-block;
+	}
+} */
 
 @media (max-width: 600px) {
 	.bottom-cloud,
@@ -288,6 +326,28 @@ ul {
 
 	.hello-text {
 		width: 80%;
+	}
+
+	.course-list {
+		text-align: left;
+		font-size: 1rem;
+	}
+
+	.course-link {
+		text-align: left;
+		margin: auto;
+	}
+
+	.mobile-break-SP {
+		display: inline-block;
+	}
+
+	.computor-img {
+		bottom: 0.4rem;
+	}
+
+	.yes-img {
+		width: 100%;
 	}
 
 	/* p {
